@@ -1,0 +1,42 @@
+ .{
+       box-sizing: border-box;
+       border: 1px solid #000;
+   }
+    body{
+       background-color:white;
+   }
+   .ptop{
+       background-color: #249361;
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+       margin: 0 auto;
+       height: 500px;
+       border: 1px solid black;
+       font-family: 'Bitter', serif;
+       font-size: 20px;
+       
+   }
+   .Sscript{
+       background-color: white;
+       line-height: 28.6px;
+       height: 1991.48px;
+       width: 930px;
+       text-align: left;
+       margin-left:200px;
+
+   }
+   article ul:nth-child(2){
+       font-family: 'Scada', sans-serif;
+       background-color:#ddd;
+        border-left: 4px solid black;
+       margin-left: 10px;
+       margin-right: 10px;
+       padding-right: 20px;
+       border-radius: 5px;
+       font-size: 17.333px;
+       font-weight: 300px;
+       line-height: 28.6px;
+
+   }
+
