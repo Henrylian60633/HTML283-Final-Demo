@@ -1,70 +1,115 @@
-   .{
-       box-sizing: border-box;
-       border: 1px solid #000;
-   }
-   body{
-       background-color:white;
-   }
-   .container{
-       background-image: url("../../images/andrew-neel-128377.jpg");
-       background-repeat: no-repeat;
-       background-position: center;
-       background-size:cover;  
-       padding-top: 100px;
-       padding-left: 100px;
-       height: 500px;
-       margine:0 auto;
-       border: 1px solid #000;
-       color:black;
-       font-family: 'Bitter', serif;
-       font-size: 20px;
-   }       
-    
-   .choose{
-       text-align: center;
-       font-size: 30;
-       letter-spacing: 10px;
-       margin:50px;
-   }
-    .detail{
-        background-color: #58B2Dc;
-        font-family:'Dosis', sans-serif;
-        margin-top:5px; 
-    }
-    #detail-1{
-        padding:10px;
-        width:30%;
-        height: 350px;
-        float:left;
-        border: 1px solid #000;
-        margin: 10px;
-        border-radius: 20px;
-
-    } 
-    #detail-2{
-        padding:10px;
-        width:30%;
-        height: 350px;
-        float:left;
-        border: 1px solid #000;
-        margin: 10px;
-         border-radius: 20px;
-    }        
-    #detail-3{
-        padding:10px;
-        width:30%;
-       height: 350px;
-        float:left;
-        border: 1px solid #000;
-        margin: 10px;
-         border-radius: 20px;
-    }
-    section p:nth-child(2){
-    font-family:  'Abel', sans-serif;
+*{
+    box-sizing: border-box;
+}
+html,body{
+    margin:0;
+    padding: 0; 
+}
+header{
+    background-image:url("../../images/andrew-neel-128377.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 700px;
+    padding-top: 100px;
+    padding-left:200px; 
+}
+/*setion*/
+.container{
     font-size: 30px;
+    overflow: auto;
+    
+    
+}
+.choose0{
+    text-align: center;
+    border: 1px solid black;
+    font-family: 'Source Code Pro', monospace;
+    padding-top: 5px;
+    background-color: #81c7D4;
 
-    }        
-         
-   
     
+}
+.choose1{
+width: calc(100%/12*4);
+float: left;
+border: 1px solid black;
+padding-left: 10px;
+
+
+}
+.choose2{
+width: calc(100%/12*4);
+float: left;
+border: 1px solid black;
+padding-left: 10px;
+}
+.choose3{
+width: calc(100%/12*4);
+float: left;
+border: 1px solid black;
+padding-left: 10px;
+}
+section p:nth-child(2){
+    font-size: 20px;
+}
+/*footer*/
+footer .container{
+    background-color: grey;
+    overflow: auto;
+}
+.subleft{
+    width:60%;
+    float: left;
+    text-align: center;
     
+}
+.subright{
+    width:40%;
+    height: 327px;
+    float: left;
+    
+}
+footer p{
+    font-size: 20px;
+    text-decoration: underline;
+}
+footer h3{
+    text-align: center;
+}
+footer a{
+color: black;
+}
+
+@media screen and ( max-width:700px) {
+    header{
+        width: 100%;
+    }
+    section{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+    .choose0{
+        width: 100%;
+    }
+    .choose1{
+        width: 100%;
+    }
+    .choose2{
+        width: 100%;
+    }
+    .choose3{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+    }
+    .subleft{
+        width: 100%;
+    }
+    .subright{
+        width: 100%;
+    }
+}

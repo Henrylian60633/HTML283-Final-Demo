@@ -2,9 +2,11 @@
        box-sizing: border-box;
        border: 1px solid #000;
    }
+
     body{
        background-color:white;
    }
+   /*作者*/
    .ptop{
        background-color: #249361;
        background-repeat: no-repeat;
@@ -14,9 +16,18 @@
        height: 500px;
        border: 1px solid black;
        font-family: 'Bitter', serif;
-       font-size: 20px;
-       
+       font-size: 20px; 
    }
+   ,ptop img{
+       width: 250;
+       height: 250px;
+   }
+.photo{
+    margin: 100px;
+    margin-left: 800px;
+    height: 500px; 
+}
+ /*描述*/
    .Sscript{
        background-color: white;
        line-height: 28.6px;
