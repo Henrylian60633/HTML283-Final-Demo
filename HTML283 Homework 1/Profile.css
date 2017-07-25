@@ -1,53 +1,153 @@
- .{
-       box-sizing: border-box;
-       border: 1px solid #000;
-   }
-
-    body{
-       background-color:white;
-   }
-   /*作者*/
-   .ptop{
-       background-color: #249361;
-       background-repeat: no-repeat;
-       background-position: center;
-       background-size: cover;
-       margin: 0 auto;
-       height: 500px;
-       border: 1px solid black;
-       font-family: 'Bitter', serif;
-       font-size: 20px; 
-   }
-   ,ptop img{
-       width: 250;
-       height: 250px;
-   }
-.photo{
-    margin: 100px;
-    margin-left: 800px;
-    height: 500px; 
+*{
+    box-sizing: border-box;
 }
- /*描述*/
-   .Sscript{
-       background-color: white;
-       line-height: 28.6px;
-       height: 1991.48px;
-       width: 930px;
-       text-align: left;
-       margin-left:200px;
+html,body,nav,footer,section,.container{
+    margin:0;
+    padding: 0; 
+}
+/*nav區段*/
+nav{
+    border: 1px solid black;
+    overflow: auto;
+    background-color: black;
+    
+}
+nav ul{
+float:right
+}
+nav li{
+    float: left;
+    list-style: none;
+    width: 150px;
+    height:20px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+}
+/*header區段*/
+header{
+    border: 1px solid black;
+    background-image: url("../../images/frank-mckenna-252908.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 350px;
+    overflow: auto;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 20px;
+}
 
-   }
-   article ul:nth-child(2){
-       font-family: 'Scada', sans-serif;
-       background-color:#ddd;
-        border-left: 4px solid black;
-       margin-left: 10px;
-       margin-right: 10px;
-       padding-right: 20px;
-       border-radius: 5px;
-       font-size: 17.333px;
-       font-weight: 300px;
-       line-height: 28.6px;
+/*作者區段*/
+section .container{
+    overflow: auto;
+    background-color: #EBE0E7;
 
-   }
+}
+.authorleft{
+     border: 1px solid black;
+     width: 300px;
+     margin:0 auto;
+      text-align: center;
+      float: left;
+}
+.authorleft img{
+    padding: 20px;
+    border-radius: 50%;
+   
+    
+}
+.authorleft h3{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.authorleft p{
+    text-align: left;
+    padding: 10px;
+}
+.authorleft{
+    width:calc(100%/12*4);
+    height: 700px;
+    float: left;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
 
+}
+.authorright{
+    width:calc(100%/12*8);
+    height: 700px;
+    float: left;
+    border: 1px solid black;
+    padding-left: 50px;
+    border-radius: 10px;
+    
+}
+.authorright h1{
+text-align: center;
+font-family: 'Abril Fatface', cursive;
+}
+.container .authorright a{
+    color: black;
+}
+/*footer*/
+footer .container{
+    background-color: grey;
+    overflow: auto;
+    border: 1px solid black;
+}
+.subleft{
+    width:60%;
+    float: left;
+    text-align: center;
+    
+}
+.subright{
+    width:40%;
+    height: 327px;
+    float: left;
+    
+}
+footer p{
+    font-size: 20px;
+    text-decoration: underline;
+}
+footer h3{
+    text-align: center;
+}
+footer a{
+color: black;
+}
+@media screen and ( max-width:700px) {
+    header{
+        width: 100%;
+    }
+    section{
+        width: 100%;
+    }
+    authorleft{
+         width: 100%;
+    }
+    img{
+         width: 100%;
+    }
+    authorright{
+            width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+    article{
+      width: 100%;  
+    }
+    .container{
+        width: 100%;
+    }
+    .subleft{
+        width: 100%;
+    }
+    .subright{
+        width: 100%;
+    }
+}

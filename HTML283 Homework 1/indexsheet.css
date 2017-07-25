@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
 }
-html,body{
+html,body,footer{
     margin:0;
     padding: 0; 
 }
