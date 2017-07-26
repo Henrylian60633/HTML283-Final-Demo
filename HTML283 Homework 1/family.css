@@ -1,0 +1,181 @@
+*{
+    box-sizing: border-box;
+}
+html,body,nav,footer,section,.container,.container-fluid,.script1,.script2{
+    margin:0;
+    padding: 0; 
+}
+/*nav區段*/
+nav{
+    border: 1px solid black;
+    overflow: auto;
+    background-color: black;
+    
+}
+nav ul{
+    float:right;
+}
+nav li{
+    float: left;
+    list-style: none;
+    width: 150px;
+    height:20px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+}
+/*header區段*/
+header{
+    border: 1px solid black;
+    background-image: url("../../images/Family.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 350px;
+    overflow: auto;
+    text-align: center;
+    font-size: 50px;
+   
+    margin: 0 auto;
+}
+
+header p{
+    margin-top: 20px;
+    font-size: 40px;
+    float:right;
+    font-family: 'Great Vibes', cursive;
+    letter-spacing: 5px;
+}
+/*section*/
+
+.script0{
+    text-align: center;
+    border: 1px solid black;
+    font-family: 'Source Code Pro', monospace;
+    padding-top: 1px;
+    background-color: #81c7D4;
+      
+}
+.script1,.script2,.script3,.script4{
+border: 1px solid black;
+height: 250px;
+}
+.script1,.script2,.script3,.script4{
+    margin: 20px;
+    padding: 20px;
+    letter-spacing: 5px;
+}
+section .father,.mother,.sister,.dog span{
+font-family: 'Varela', sans-serif;
+}
+/*父親*/
+.script1 .fp{
+    height: 200px;
+    width:20%;
+    border: 1px solid black;
+    float: left;
+    text-align: center;
+    
+}
+.script1 .father{
+    height: 200px;
+    width:50%;
+    border: 1px solid black;
+    float: left;
+    line-height: 50px;
+    padding-left:20px; 
+}
+.script1 img{
+    height: 100%;
+    width:100%;
+}
+/*母親*/
+
+.script2 .fp{
+    height: 200px;
+    width:20%;
+    border: 1px solid black;
+    float: right;
+    text-align: center;
+}
+.script2 .mother{
+    height: 200px;
+    width:50%;
+    border: 1px solid black;
+    float: right;
+    line-height: 50px;
+    padding-left:200px; 
+}
+.script2 img{
+    height: 100%;
+    width:100%;
+}
+/*姊姊*/
+.script3 .fp{
+    height: 200px;
+    width:20%;
+    border: 1px solid black;
+    float: left;
+    text-align: center;
+}
+.script3 .sister{
+    height: 200px;
+    width:50%;
+    border: 1px solid black;
+    float: left;
+    line-height: 50px;
+    padding-left:20px; 
+}
+.script3 img{
+    height: 100%;
+    width:100%;
+}
+/*dog*/
+.script4 .fp{
+    height: 200px;
+    width:20%;
+    border: 1px solid black;
+    float: right;
+    text-align: center;
+}
+.script4 .dog{
+    height: 200px;
+    width:50%;
+    border: 1px solid black;
+    float: right;
+    line-height: 50px;
+    padding-left:200px; 
+}
+.script4 img{
+    height: 100%;
+    width:100%;
+}
+/*footer*/
+footer .container{
+    background-color:black;
+    overflow: auto;
+}
+.subleft{
+    width:60%;
+    float: left;
+    text-align: center;
+    
+}
+.subright{
+    width:40%;
+    height: 327px;
+    float: left;
+    
+}
+footer p{
+    font-size: 20px;
+    text-decoration: underline;
+    color: white;
+}
+footer h3{
+    text-align: center;
+    color:white;
+}
+footer a{
+color:white;
+}

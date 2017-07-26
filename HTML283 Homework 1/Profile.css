@@ -13,7 +13,7 @@ nav{
     
 }
 nav ul{
-float:right
+    float:right;
 }
 nav li{
     float: left;
@@ -93,9 +93,8 @@ font-family: 'Abril Fatface', cursive;
 }
 /*footer*/
 footer .container{
-    background-color: grey;
+    background-color:black;
     overflow: auto;
-    border: 1px solid black;
 }
 .subleft{
     width:60%;
@@ -112,12 +111,14 @@ footer .container{
 footer p{
     font-size: 20px;
     text-decoration: underline;
+    color: white;
 }
 footer h3{
     text-align: center;
+    color:white;
 }
 footer a{
-color: black;
+color:white;
 }
 @media screen and ( max-width:700px) {
     header{
