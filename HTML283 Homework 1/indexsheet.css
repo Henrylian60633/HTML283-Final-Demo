@@ -30,6 +30,7 @@ header{
 
     
 }
+
 .choose1{
 width: calc(100%/12*4);
 float: left;
@@ -38,17 +39,29 @@ padding-left: 10px;
 
 
 }
+.choose1 a{
+    color: black;
+    text-decoration: none;
+}
 .choose2{
 width: calc(100%/12*4);
 float: left;
 border: 1px solid black;
 padding-left: 10px;
 }
+.choose2 a{
+    color: black;
+    text-decoration: none;
+}
 .choose3{
 width: calc(100%/12*4);
 float: left;
 border: 1px solid black;
 padding-left: 10px;
+}
+.choose3 a{
+    color: black;
+    text-decoration: none;
 }
 section p:nth-child(2){
     font-size: 20px;
@@ -57,6 +70,7 @@ section p:nth-child(2){
 footer .container{
     background-color:black;
     overflow: auto;
+    width: 100%;
 }
 .subleft{
     width:60%;

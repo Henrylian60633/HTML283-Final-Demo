@@ -95,6 +95,7 @@ font-family: 'Abril Fatface', cursive;
 footer .container{
     background-color:black;
     overflow: auto;
+    width: 100%;
 }
 .subleft{
     width:60%;

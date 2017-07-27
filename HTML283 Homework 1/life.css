@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+}
+html,body,nav,footer,section,.photocontainer,.pic1,.pic2.pic3,.basket,.basketcontainer,.basket,.container,.subleft,.subright{
+    margin:0;
+    padding: 0; 
+}
+/*nav區段*/
+nav{
+    border: 1px solid black;
+    overflow: auto;
+    background-color: black;
+    
+}
+nav ul{
+    float:right;
+}
+nav li{
+    float: left;
+    list-style: none;
+    width: 150px;
+    height:20px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+}
+body{
+    background-color:#BDC0BA;
+}
+/*header區段*/
+header{
+    border: 1px solid black;
+    background-image: url("../../images/life.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 400px;
+    overflow: auto;
+    text-align: center;
+    font-size: 50px;
+    margin: 0 auto;
+}
+
+header p{
+    margin-top: 200px;
+    padding-left: 200px; 
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Artifika', serif;
+    letter-spacing: 5px;
+}
+/*section photo*/
+section .photocontainer{
+    border:1px solid black;
+    float: left;
+    height: 1000px;
+    width: 100%;
+    background-color: white;
+    margin-top: 60px;
+    height: 1000px;
+
+}
+section h3{
+    text-align: center;
+}
+section .pic1  img{
+     border:1px solid black;
+     float: left;
+     width: 40%;
+     height: 50%;
+   overflow: auto;
+     margin-left: 90px;
+}
+section .pic2  img{
+     border:1px solid black;
+     float: left;
+     width: 40%;
+     height: 50%;
+     margin-left: 90px;
+     overflow: auto;
+}
+section .pic3  img{
+     border:1px solid black;
+     float: left;
+     width: 40%;
+     margin-top: 50px;
+   height: 50%;
+     margin-left: 90px;
+     overflow: auto;
+}
+section .pscript{
+    text-align: center;
+    border:1px solid black;
+    float: left;
+     width: 40%;
+     height: 50%;
+     margin-top: 50px;
+     margin-left: 90px;
+     font-size: 35px;
+     overflow: auto;
+}
+/*section basket*/
+section .basketcontainer{
+    border:1px solid black;
+    float: left;
+    height: 600px;
+    width: 100%;
+    background-color: white;
+    margin-top: 60px;
+     height: 1000px;
+
+}
+
+
+.basket{
+    width: calc(100%/12*4);
+    float: left;
+    padding: 10px;
+    overflow: auto;
+}
+.basket img{
+    width: 100%;
+    height: 300px;
+    
+}
+/*footer*/
+footer .container{
+    background-color:black;
+    overflow: auto;
+    float: left;
+    width: 100%;
+    
+}
+.subleft{
+    width:60%;
+    float: left;
+    text-align: center;
+    
+}
+.subright{
+    width:40%;
+    height: 327px;
+    float: left;
+    
+}
+footer p{
+    font-size: 20px;
+    text-decoration: underline;
+    color: white;
+}
+footer h3{
+    text-align: center;
+    color:white;
+}
+footer a{
+color:white;
+}
