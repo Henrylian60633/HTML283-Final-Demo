@@ -7,22 +7,31 @@ html,body,nav,footer,section,.container{
 }
 /*nav區段*/
 nav{
-    border: 1px solid black;
     overflow: auto;
+    position:fixed;
+    width: 100%;
+    top:0;
+    left:0;
     background-color: black;
-    
 }
 nav ul{
     float:right;
 }
 nav li{
     float: left;
-    list-style: none;
+    list-style-type:none;
     width: 150px;
     height:20px;
     font-size: 20px;
     color: white;
     font-family: 'Fjalla One', sans-serif;
+}
+nav a{
+    color:white;
+    text-decoration: none;
+}
+body{
+    padding-top:50px;
 }
 /*header區段*/
 header{
@@ -41,7 +50,7 @@ header{
 /*作者區段*/
 section .container{
     overflow: auto;
-    background-color: #EBE0E7;
+    background-color:white;
 
 }
 .authorleft{
@@ -73,7 +82,12 @@ section .container{
     border: 1px solid black;
     border-radius: 10px;
     padding: 10px;
+    overflow: auto;
 
+}
+.authorleft p{
+    line-height: 30px;
+    font-size: 20px;
 }
 .authorright{
     width:calc(100%/12*8);
@@ -82,15 +96,17 @@ section .container{
     border: 1px solid black;
     padding-left: 50px;
     border-radius: 10px;
-    
+   overflow: auto;
 }
 .authorright h1{
 text-align: center;
+
 font-family: 'Abril Fatface', cursive;
 }
-.container .authorright a{
+.container, .authorright a{
     color: black;
 }
+
 /*footer*/
 footer .container{
     background-color:black;

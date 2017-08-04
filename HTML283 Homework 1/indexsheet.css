@@ -10,15 +10,26 @@ header{
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
-    height: 700px;
+    height: 600px;
     padding-top: 100px;
-    padding-left:200px; 
+    padding-left:200px;
+    overflow: auto; 
+}
+header h1{
+font-family: 'Libre Baskerville', serif;
+font-size: 50px;
+
+}
+header p{
+    font-size: 30px;
+    
 }
 /*setion*/
-.container{
+ section .container{
     font-size: 30px;
     overflow: auto;
     
+    width: 100%;
     
 }
 .choose0{
@@ -37,34 +48,50 @@ float: left;
 border: 1px solid black;
 padding-left: 10px;
 
-
+background-color: yellow; 
 }
 .choose1 a{
     color: black;
     text-decoration: none;
+}
+.choose1 h3{
+  text-align: center;
 }
 .choose2{
 width: calc(100%/12*4);
 float: left;
 border: 1px solid black;
 padding-left: 10px;
+
+background-color: yellow; 
 }
 .choose2 a{
     color: black;
     text-decoration: none;
+}
+.choose2 h3{
+  text-align: center;
 }
 .choose3{
 width: calc(100%/12*4);
 float: left;
 border: 1px solid black;
 padding-left: 10px;
+
+background-color: yellow; 
 }
 .choose3 a{
     color: black;
     text-decoration: none;
 }
+.choose3 h3{
+  text-align: center;
+}
 section p:nth-child(2){
-    font-size: 20px;
+    font-size: 30px;
+}
+.choose1,.choose2,.choose3, p{
+    font-family: 'Inconsolata', monospace;
 }
 /*footer*/
 footer .container{
@@ -76,13 +103,13 @@ footer .container{
     width:60%;
     float: left;
     text-align: center;
-    
+    padding-left: 10px;
 }
 .subright{
     width:40%;
     height: 327px;
     float: left;
-    
+    padding-left: 10px;
 }
 footer p{
     font-size: 20px;

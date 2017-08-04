@@ -1,0 +1,404 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.iphone{
+    position: relative;
+    margin: 20px;
+    border: 4px solid black;
+    height:635px;
+    width: 310px;
+    /*background-image: url("http://d3d71ba2asa5oz.cloudfront.net/12015576/images/iphone%207%20plus%20rose%20gold%20generic%20front_41117.jpg");*/
+    background-size:700px;
+    background-repeat: no-repeat;
+    background-position: -198px -32px;
+    border-radius: 40px;
+}
+.microphone{
+    position:absolute;
+    height: 5px;
+    width: 5px;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 50%;
+    top:16px;
+    left:152px;
+}
+.shoot{
+    position:absolute;
+    height: 7px;
+    width: 7px;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 50%;
+    top:32px;
+    left:96px;
+}
+.listen{
+    position:absolute;
+    height: 3px;
+    width: 55px;
+    border: 1px solid grey;
+    background-color:grey;
+    border-radius:50px;
+    top:35px;
+    left: 126px;
+}
+.screen{
+    position:absolute;
+    height:493px;
+    width: 277px;
+    border: 1px solid black;
+    top:68px;
+    left: 16px;
+}
+.screen img {
+    width:100%;
+    height: 100%;
+}
+.home{
+    position:absolute;
+    height: 41px;
+    width: 41px;
+    border-radius: 50%;
+    border: 1px solid black;
+    bottom: 16px;
+    left:135px;
+    background-color: white;
+
+}
+.antenna1{
+    position:absolute;
+    height: 9px;
+    width: 5px;
+    border: 1px solid black;
+    top:44px;
+    background-color: white;
+}
+.antenna2{
+    position:absolute;
+    height: 9px;
+    width: 5px;
+    border: 1px solid black;
+    top:44px;
+    right: 0;
+    background-color: white;
+}
+.open{
+    position:absolute;
+    height: 30px;
+    width: 4px;
+    border: 1px solid black;
+    top:125px;
+    right: -6px;
+    background-color: white;
+}
+.shake{
+    position:absolute;
+    height: 20px;
+    width: 4px;
+    border: 1px solid black;
+    top:76px;
+    left: -5px;
+    background-color: white;
+}
+.volume1{
+    position:absolute;
+    height: 40px;
+    width: 5px;
+    border: 1px solid black;
+    top:125px;
+    left: -5px;
+    background-color: white;
+}
+.volume2{
+    position:absolute;
+    height: 40px;
+    width: 5px;
+    border: 1px solid black;
+    top:180px;
+    left: -5px;
+    background-color: white;
+}
+
+
+/*icon*/
+.mail{
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    /*border: 1px solid black;*/
+    top:97px;
+    left: 40px;
+    border-radius: 10px;
+}
+.mail img{
+width: 100%;
+}
+.calender{
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+    top:97px;
+    left: 104px;
+}
+.calender img{
+    width: 100%;
+}
+.photo{
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+    top:97px;
+    right: 104px;
+}
+.photo img{
+    width: 100%;
+}
+.camera{
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+    top:97px;
+    right: 40px;
+}
+.camera img{
+    width: 100%;
+}
+.map{
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+    top:165px;
+    left: 40px;
+}
+.map img{
+    width:100%;
+}
+.clock{
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+    top:165px;
+    left: 104px;
+}
+.clock img{
+    width: 100%;
+}
+.weather{
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+    top:165px;
+    right: 104px;
+}
+.weather img{
+    width:100%;
+}
+.stocks{
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+    top:165px;
+    right: 40px;
+}
+.stocks img{
+    width:100%;
+}
+.wallet{
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+    top:230px;
+    left: 40px;
+}
+.wallet img{
+    width:100%;
+}
+.note{
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+    top:230px;
+    left: 104px;
+}
+.note img{
+    width:100%;
+}
+.reminders{
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+    top:230px;
+    right: 104px;
+}
+.reminders img{
+    width:100%;
+}
+.news{
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+    top:230px;
+    right: 40px;
+}
+.news img{
+    width:100%;
+}
+.whatsapp{
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+    top:296px;
+    left: 40px;
+}
+.whatsapp img{
+    width:100%;
+}
+.appstore{
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+    top:296px;
+    left: 104px;
+}
+.appstore img{
+    width:100%;
+}
+.ibooks{
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+    top:296px;
+    right: 104px;
+}
+.ibooks img{
+    width:100%;
+}
+.TV{
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+    top:296px;
+    right: 40px;
+}
+.TV img{
+    width: 100%;
+}
+.house{
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+    top:363px;
+    left: 40px;
+}
+.house img{
+    width:100%;
+}
+.health{
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+    top:363px;
+    left: 104px;
+}
+.health img{
+    width:100%;
+}
+.settings{
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+    top:363px;
+    right: 104px;
+}
+.settings img{
+    width:100%;
+}
+.PHONE{
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+    left: 40px;
+    bottom: 85px;
+}  
+.PHONE img{
+    width:100%;
+}
+.safari{
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+    left: 104px;
+    bottom: 85px;
+} 
+.safari img{
+    width:100%;
+} 
+.message{
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+    right: 104px;
+    bottom: 85px;
+}
+.message img{
+    width:100%;
+}
+.itunes{
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+    right: 40px;
+    bottom: 85px;
+}
+.itunes img{
+    width:100%;
+}   

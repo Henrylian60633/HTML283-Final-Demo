@@ -7,22 +7,50 @@ html,body,nav,footer,section,.container,.container-fluid,.script1,.script2{
 }
 /*nav區段*/
 nav{
-    border: 1px solid black;
     overflow: auto;
+    position:fixed;
+    width: 100%;
+    top:0;
+    left:0;
     background-color: black;
     
 }
 nav ul{
     float:right;
+    
+    list-style-type:none;
 }
 nav li{
     float: left;
-    list-style: none;
+    
     width: 150px;
     height:20px;
     font-size: 20px;
     color: white;
     font-family: 'Fjalla One', sans-serif;
+}
+nav a{
+    color:white;
+    text-decoration: none;
+}
+.Top {
+    background-color: gainsboro;
+    color:black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    line-height: 50px;
+    text-align: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+.Top a{
+    color:black;
+    text-decoration: none;
+}
+body{
+    padding-top:50px;
 }
 /*header區段*/
 header{
@@ -48,12 +76,15 @@ header p{
 }
 /*section*/
 
+.container-fluid{
+    background-color: #A5DEE4;
+}
 .script0{
     text-align: center;
     border: 1px solid black;
     font-family: 'Source Code Pro', monospace;
     padding-top: 1px;
-    background-color: #81c7D4;
+    background-color:ghostwhite;
       
 }
 .script1,.script2,.script3,.script4{
@@ -149,6 +180,18 @@ font-family: 'Varela', sans-serif;
 .script4 img{
     height: 100%;
     width:100%;
+}
+.father,.mother,.sister,.dog{
+    background-color: #FAD689;
+
+}
+.father,.sister{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.mother,.dog{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 /*footer*/
 footer .container{

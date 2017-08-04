@@ -7,22 +7,31 @@ html,body,nav,footer,section,.photocontainer,.pic1,.pic2.pic3,.basket,.basketcon
 }
 /*nav區段*/
 nav{
-    border: 1px solid black;
     overflow: auto;
+    position:fixed;
+    width: 100%;
+    top:0;
+    left:0;
     background-color: black;
-    
 }
 nav ul{
     float:right;
 }
 nav li{
     float: left;
-    list-style: none;
+    list-style-type:none;
     width: 150px;
     height:20px;
     font-size: 20px;
     color: white;
     font-family: 'Fjalla One', sans-serif;
+}
+nav a{
+    color:white;
+    text-decoration: none;
+}
+body{
+    padding-top:50px;
 }
 body{
     background-color:#BDC0BA;
@@ -63,13 +72,16 @@ section .photocontainer{
 section h3{
     text-align: center;
 }
+
 section .pic1  img{
+
      border:1px solid black;
      float: left;
      width: 40%;
      height: 50%;
-   overflow: auto;
      margin-left: 90px;
+     overflow: auto;
+
 }
 section .pic2  img{
      border:1px solid black;
@@ -84,7 +96,7 @@ section .pic3  img{
      float: left;
      width: 40%;
      margin-top: 50px;
-   height: 50%;
+    height: 50%;
      margin-left: 90px;
      overflow: auto;
 }
